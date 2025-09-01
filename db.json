@@ -1,0 +1,701 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Setup Development Environment",
+      "description": "Configure local development environment with necessary tools and dependencies.",
+      "status": "completed",
+      "priority": "high",
+      "startDate": "2025-08-15",
+      "startTime": "09:00",
+      "dueDate": "2025-08-17",
+      "dueTime": "17:00",
+      "createdBy": "Alice",
+      "category": "Development",
+      "tags": [
+        "setup",
+        "environment",
+        "development"
+      ],
+      "createdAt": "2025-08-15T09:00:00Z",
+      "updatedAt": "2025-08-17T16:30:00Z"
+    },
+    {
+      "id": "2",
+      "title": "API Integration",
+      "description": "Integrate authentication API with the frontend.",
+      "status": "in-progress",
+      "priority": "medium",
+      "startDate": "2025-08-17",
+      "startTime": "10:30",
+      "dueDate": "2025-08-21",
+      "dueTime": "17:30",
+      "createdBy": "Bob",
+      "category": "Development",
+      "tags": [
+        "API",
+        "Auth",
+        "Angular"
+      ],
+      "createdAt": "2025-08-17T10:30:00Z",
+      "updatedAt": "2025-08-19T14:15:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Database Schema Design",
+      "description": "Design and implement the database schema for user management.",
+      "status": "pending",
+      "priority": "high",
+      "startDate": "2025-08-20",
+      "startTime": "08:00",
+      "dueDate": "2025-08-25",
+      "dueTime": "18:00",
+      "createdBy": "Carol",
+      "category": "Database",
+      "tags": [
+        "database",
+        "schema",
+        "design"
+      ],
+      "createdAt": "2025-08-18T11:20:00Z",
+      "updatedAt": "2025-08-18T11:20:00Z"
+    },
+    {
+      "id": "4",
+      "title": "User Interface Testing",
+      "description": "Conduct comprehensive testing of the user interface components.",
+      "status": "in-progress",
+      "priority": "medium",
+      "startDate": "2025-08-19",
+      "startTime": "13:15",
+      "dueDate": "2025-08-23",
+      "dueTime": "16:00",
+      "createdBy": "David",
+      "category": "Testing",
+      "tags": [
+        "UI",
+        "testing",
+        "QA"
+      ],
+      "createdAt": "2025-08-19T13:15:00Z",
+      "updatedAt": "2025-08-21T09:45:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Performance Optimization",
+      "description": "Optimize application performance and reduce loading times.",
+      "status": "completed",
+      "priority": "low",
+      "startDate": "2025-08-12",
+      "startTime": "14:00",
+      "dueDate": "2025-08-16",
+      "dueTime": "17:00",
+      "createdBy": "Eve",
+      "category": "Performance",
+      "tags": [
+        "optimization",
+        "performance",
+        "speed"
+      ],
+      "createdAt": "2025-08-12T14:00:00Z",
+      "updatedAt": "2025-08-16T16:45:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Security Audit",
+      "description": "Perform security audit and implement necessary security measures.",
+      "status": "pending",
+      "priority": "high",
+      "startDate": "2025-08-26",
+      "startTime": "10:00",
+      "dueDate": "2025-08-30",
+      "dueTime": "15:30",
+      "createdBy": "Frank",
+      "category": "Security",
+      "tags": [
+        "security",
+        "audit",
+        "compliance"
+      ],
+      "createdAt": "2025-08-20T16:30:00Z",
+      "updatedAt": "2025-08-20T16:30:00Z"
+    },
+    {
+      "id": "7",
+      "title": "Documentation Update",
+      "description": "Update project documentation and API references.",
+      "status": "in-progress",
+      "priority": "low",
+      "startDate": "2025-08-22",
+      "startTime": "11:30",
+      "dueDate": "2025-08-28",
+      "dueTime": "14:00",
+      "createdBy": "Grace",
+      "category": "Documentation",
+      "tags": [
+        "docs",
+        "API",
+        "documentation"
+      ],
+      "createdAt": "2025-08-22T11:30:00Z",
+      "updatedAt": "2025-08-24T10:15:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Code Review Process",
+      "description": "Establish and implement code review guidelines and processes.",
+      "status": "completed",
+      "priority": "medium",
+      "startDate": "2025-08-10",
+      "startTime": "09:15",
+      "dueDate": "2025-08-14",
+      "dueTime": "16:30",
+      "createdBy": "Henry",
+      "category": "Process",
+      "tags": [
+        "code-review",
+        "quality",
+        "process"
+      ],
+      "createdAt": "2025-08-10T09:15:00Z",
+      "updatedAt": "2025-08-14T15:20:00Z"
+    },
+    {
+      "title": "Mobile Responsiveness",
+      "description": "Ensure application is fully responsive across mobile devices.",
+      "status": "pending",
+      "priority": "medium",
+      "startDate": "2025-08-25",
+      "startTime": "12:00",
+      "dueDate": "2025-08-29",
+      "dueTime": "18:30",
+      "category": "Frontend",
+      "tags": [
+        "mobile",
+        "responsive",
+        "CSS"
+      ],
+      "createdBy": "Ivy",
+      "createdAt": "2025-08-23T14:45:00Z",
+      "updatedAt": "2025-08-29T12:47:21.273Z",
+      "id": "9"
+    },
+    {
+      "id": "10",
+      "title": "Deployment Pipeline Setup",
+      "description": "Configure CI/CD pipeline for automated deployment and testing.",
+      "status": "in-progress",
+      "priority": "high",
+      "startDate": "2025-08-21",
+      "startTime": "08:30",
+      "dueDate": "2025-08-27",
+      "dueTime": "17:00",
+      "createdBy": "Jack",
+      "category": "DevOps",
+      "tags": [
+        "CI/CD",
+        "deployment",
+        "automation"
+      ],
+      "createdAt": "2025-08-21T08:30:00Z",
+      "updatedAt": "2025-08-26T11:20:00Z"
+    },
+    {
+      "title": "Bug Fix – Locale Issue",
+      "description": "Resolve date formatting issue for international users.",
+      "status": "in-progress",
+      "priority": "high",
+      "startDate": "2025-08-29",
+      "startTime": "09:45",
+      "dueDate": "2025-08-29",
+      "dueTime": "15:00",
+      "category": "Bugfix",
+      "tags": [
+        "bug",
+        "i18n",
+        "date-format"
+      ],
+      "createdBy": "Karen",
+      "createdAt": "2025-08-29T09:45:00Z",
+      "updatedAt": "2025-08-29T07:52:10.510Z",
+      "id": "11"
+    },
+    {
+      "title": "UX Polish – Dashboard",
+      "description": "Improve spacing and color contrasts on the main dashboard.",
+      "status": "on-hold",
+      "priority": "medium",
+      "startDate": "2025-08-29",
+      "startTime": "11:00",
+      "dueDate": "2025-08-31",
+      "dueTime": "17:30",
+      "category": "Design",
+      "tags": [
+        "UX",
+        "design",
+        "dashboard"
+      ],
+      "createdBy": "Leo",
+      "createdAt": "2025-08-29T11:00:00Z",
+      "updatedAt": "2025-08-29T14:55:33.732Z",
+      "id": "12"
+    },
+    {
+      "id": "13",
+      "title": "Data Backup Verification",
+      "description": "Verify daily backups completed successfully.",
+      "status": "completed",
+      "priority": "low",
+      "startDate": "2025-08-28",
+      "startTime": "06:30",
+      "dueDate": "2025-08-28",
+      "dueTime": "08:00",
+      "createdBy": "Mia",
+      "category": "Maintenance",
+      "tags": [
+        "backup",
+        "database",
+        "maintenance"
+      ],
+      "createdAt": "2025-08-28T06:30:00Z",
+      "updatedAt": "2025-08-28T07:50:00Z"
+    },
+    {
+      "id": "14",
+      "title": "Release Candidate Build",
+      "description": "Generate and distribute the RC build for stakeholder review.",
+      "status": "pending",
+      "priority": "high",
+      "startDate": "2025-08-30",
+      "startTime": "10:15",
+      "dueDate": "2025-08-30",
+      "dueTime": "13:30",
+      "createdBy": "Nina",
+      "category": "Release",
+      "tags": [
+        "release",
+        "RC",
+        "build"
+      ],
+      "createdAt": "2025-08-29T18:10:00Z",
+      "updatedAt": "2025-08-29T18:10:00Z"
+    },
+    {
+      "id": "15",
+      "title": "Stakeholder Demo Preparation",
+      "description": "Prepare slides and live demo for the Q3 stakeholder meeting.",
+      "status": "in-progress",
+      "priority": "medium",
+      "startDate": "2025-08-24",
+      "startTime": "13:00",
+      "dueDate": "2025-08-29",
+      "dueTime": "11:00",
+      "createdBy": "Olivia",
+      "category": "Presentation",
+      "tags": [
+        "demo",
+        "stakeholder",
+        "presentation"
+      ],
+      "createdAt": "2025-08-24T13:00:00Z",
+      "updatedAt": "2025-08-28T17:25:00Z"
+    },
+    {
+      "id": "16",
+      "title": "Accessibility Review",
+      "description": "Audit application for WCAG 2.1 AA compliance.",
+      "status": "in-progress",
+      "priority": "high",
+      "startDate": "2025-08-27",
+      "startTime": "09:30",
+      "dueDate": "2025-09-02",
+      "dueTime": "17:00",
+      "createdBy": "Peter",
+      "category": "Compliance",
+      "tags": [
+        "accessibility",
+        "WCAG",
+        "audit"
+      ],
+      "createdAt": "2025-08-27T09:30:00Z",
+      "updatedAt": "2025-08-29T10:50:00Z"
+    },
+    {
+      "id": "17",
+      "title": "Logging and Monitoring Setup",
+      "description": "Configure centralized logging and monitoring with Grafana.",
+      "status": "pending",
+      "priority": "medium",
+      "startDate": "2025-08-31",
+      "startTime": "08:30",
+      "dueDate": "2025-09-03",
+      "dueTime": "18:00",
+      "createdBy": "Quinn",
+      "category": "DevOps",
+      "tags": [
+        "logging",
+        "monitoring",
+        "Grafana"
+      ],
+      "createdAt": "2025-08-29T12:10:00Z",
+      "updatedAt": "2025-08-29T12:10:00Z"
+    },
+    {
+      "title": "Feature Flag Implementation",
+      "description": "Add feature flag framework to allow gradual rollouts.",
+      "status": "in-progress",
+      "priority": "high",
+      "startDate": "2025-08-26",
+      "startTime": "10:45",
+      "dueDate": "2025-09-01",
+      "dueTime": "16:30",
+      "category": "Feature",
+      "tags": [
+        "feature-flag",
+        "rollout",
+        "config"
+      ],
+      "createdBy": "Rita",
+      "createdAt": "2025-08-26T10:45:00Z",
+      "updatedAt": "2025-08-30T15:41:18.381Z",
+      "id": "18"
+    },
+    {
+      "id": "19",
+      "title": "Analytics Dashboard",
+      "description": "Develop analytics dashboard for user metrics.",
+      "status": "pending",
+      "priority": "medium",
+      "startDate": "2025-09-01",
+      "startTime": "09:15",
+      "dueDate": "2025-09-10",
+      "dueTime": "17:45",
+      "createdBy": "Sam",
+      "category": "Analytics",
+      "tags": [
+        "dashboard",
+        "analytics",
+        "metrics"
+      ],
+      "createdAt": "2025-08-29T13:00:00Z",
+      "updatedAt": "2025-08-29T13:00:00Z"
+    },
+    {
+      "id": "20",
+      "title": "Incident Response Drill",
+      "description": "Conduct incident response tabletop exercise with the team.",
+      "status": "completed",
+      "priority": "low",
+      "startDate": "2025-08-23",
+      "startTime": "14:00",
+      "dueDate": "2025-08-23",
+      "dueTime": "16:30",
+      "createdBy": "Tina",
+      "category": "Security",
+      "tags": [
+        "incident",
+        "response",
+        "drill"
+      ],
+      "createdAt": "2025-08-23T14:00:00Z",
+      "updatedAt": "2025-08-23T16:45:00Z"
+    },
+    {
+      "title": "Reviewing App",
+      "description": "Review the application",
+      "status": "pending",
+      "priority": "high",
+      "startDate": "2025-08-29",
+      "startTime": "15:00",
+      "dueDate": "2025-08-30",
+      "dueTime": "12:00",
+      "category": "Work",
+      "tags": [
+        "Test"
+      ],
+      "createdBy": "Dhananjay",
+      "createdAt": "2025-08-29T07:53:29.830Z",
+      "updatedAt": "2025-08-29T14:38:39.045Z",
+      "id": "eb0a"
+    },
+    {
+      "id": "ee35",
+      "title": "jghl",
+      "description": "hgu",
+      "status": "pending",
+      "priority": "medium",
+      "startDate": "2025-08-07",
+      "startTime": "15:03",
+      "dueDate": "2025-08-29",
+      "dueTime": "06:56",
+      "category": "Development",
+      "tags": [],
+      "createdBy": "Dhananjay",
+      "createdAt": "2025-08-29T12:58:26.113Z",
+      "updatedAt": "2025-08-29T12:58:51.075Z"
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "title": "Meeting Notes",
+      "content": "Discuss project roadmap and deadlines for next quarter.",
+      "image": "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg",
+      "color": "#FFFAE3",
+      "isPinned": false,
+      "isArchived": true
+    },
+    {
+      "id": "2",
+      "title": "Shopping List",
+      "content": "Milk, Eggs, Bread, Fruits, and Vegetables.",
+      "image": "https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg",
+      "color": "#E3F7FF",
+      "isPinned": true,
+      "order": 0
+    },
+    {
+      "id": "3",
+      "title": "Ideas for Blog",
+      "content": "Write about Angular best practices and performance optimization.",
+      "image": "https://images.pexels.com/photos/3183199/pexels-photo-3183199.jpeg",
+      "color": "#E8FFE3",
+      "isPinned": true,
+      "order": 1
+    },
+    {
+      "id": "4",
+      "title": "Workout Plan",
+      "content": "Monday: Cardio, Tuesday: Strength, Wednesday: Yoga.",
+      "image": "https://images.pexels.com/photos/3183200/pexels-photo-3183200.jpeg",
+      "color": "#FFE3F0"
+    },
+    {
+      "id": "5",
+      "title": "Books to Read",
+      "content": "Atomic Habits, Clean Code, The Pragmatic Programmer.",
+      "image": "https://images.pexels.com/photos/3183201/pexels-photo-3183201.jpeg",
+      "color": "#F3E3FF"
+    },
+    {
+      "id": "7951",
+      "title": "ugduwgdyu",
+      "content": "1 . vdgerw\n\n2. sdvfedasfed\n\n3. dvfdv",
+      "image": "",
+      "color": "#ffffff"
+    },
+    {
+      "id": "f17a",
+      "title": "",
+      "content": "uytu",
+      "image": "https://i.ibb.co/rfF1S7Lm/Screenshot-51.png",
+      "color": "#ffffff"
+    },
+    {
+      "id": "e866",
+      "title": "cokkjnen",
+      "content": "iuhiefeifhe",
+      "image": "",
+      "color": "#ffffff",
+      "isPinned": true,
+      "order": 2
+    },
+    {
+      "id": "db68",
+      "title": "ojldce",
+      "content": "hi",
+      "image": "",
+      "color": "#d7aefb",
+      "isPinned": false
+    }
+  ],
+  "transactions": [
+    {
+      "id": "2fba",
+      "amount": 1000,
+      "category": "Royalties",
+      "type": "income",
+      "date": "2025-08-12",
+      "notes": ""
+    },
+    {
+      "id": "3e87",
+      "amount": 1000,
+      "category": "Bonus",
+      "type": "income",
+      "date": "2025-08-05",
+      "notes": ""
+    },
+    {
+      "id": "34b6",
+      "amount": 1500,
+      "category": "Entertainment",
+      "type": "expense",
+      "date": "2025-08-26",
+      "notes": ""
+    },
+    {
+      "id": "98eb",
+      "amount": 500,
+      "category": "Entertainment",
+      "type": "expense",
+      "date": "2025-08-11",
+      "notes": ""
+    },
+    {
+      "id": "7a02",
+      "amount": 211,
+      "category": "Education",
+      "type": "expense",
+      "date": "2025-08-13",
+      "notes": ""
+    },
+    {
+      "id": "93f9",
+      "amount": 100,
+      "category": "Fuel",
+      "type": "expense",
+      "date": "2025-08-25",
+      "notes": ""
+    },
+    {
+      "id": "66a4",
+      "amount": 950,
+      "category": "Insurance",
+      "type": "expense",
+      "date": "2025-08-27",
+      "notes": ""
+    },
+    {
+      "id": "4367",
+      "amount": 2100,
+      "category": "Refunds/Reimbursements",
+      "type": "income",
+      "date": "2025-08-28",
+      "notes": "jinhj"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Alice Johnson",
+      "phone": "+91 9876543210",
+      "email": "alice.johnson@example.com",
+      "address": "123 MG Road, Bangalore, India",
+      "company": "TechSoft",
+      "jobTitle": "Software Engineer",
+      "birthday": "1992-05-14",
+      "notes": "Met at a conference in 2023.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/44.jpg",
+      "website": "https://alice.dev",
+      "favorite": true
+    },
+    {
+      "id": "2",
+      "name": "Rahul Sharma",
+      "phone": "+91 9988776655",
+      "email": "rahul.sharma@example.com",
+      "address": "56 Park Street, Mumbai, India",
+      "company": "InnoVision",
+      "jobTitle": "Product Manager",
+      "birthday": "1988-11-23",
+      "notes": "Interested in AI-driven projects.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/32.jpg",
+      "website": "https://rahulsharma.in",
+      "favorite": false
+    },
+    {
+      "id": "3",
+      "name": "Sophia Williams",
+      "phone": "+44 7700 900123",
+      "email": "sophia.williams@example.com",
+      "address": "221B Baker Street, London, UK",
+      "company": "FinEdge",
+      "jobTitle": "Financial Analyst",
+      "birthday": "1990-02-08",
+      "notes": "Follow-up in December for investment plans.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/68.jpg",
+      "website": "https://sophiafinance.com",
+      "favorite": true
+    },
+    {
+      "id": "4",
+      "name": "Michael Chen",
+      "phone": "+1 415-555-0199",
+      "email": "michael.chen@example.com",
+      "address": "789 Market St, San Francisco, USA",
+      "company": "NextGen AI",
+      "jobTitle": "Data Scientist",
+      "birthday": "1995-09-30",
+      "notes": "Specialist in ML & NLP.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/52.jpg",
+      "website": "https://michaelchen.ai",
+      "favorite": false
+    },
+    {
+      "id": "5",
+      "name": "Priya Verma",
+      "phone": "+91 9123456780",
+      "email": "priya.verma@example.com",
+      "address": "45 Residency Road, Delhi, India",
+      "company": "DesignHub",
+      "jobTitle": "UI/UX Designer",
+      "birthday": "1993-07-19",
+      "notes": "Working on freelance design projects.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/21.jpg",
+      "website": "https://priyadesigns.com",
+      "favorite": true
+    },
+    {
+      "id": "03a0",
+      "name": "kjbj",
+      "phone": "nm",
+      "email": "xyz@gmai.com",
+      "address": "bn n",
+      "company": "n bn",
+      "jobTitle": "",
+      "birthday": "",
+      "notes": "nh b",
+      "profilePicture": "",
+      "website": "n",
+      "favorite": false
+    }
+  ],
+  "reminders": [
+    {
+      "id": "1",
+      "title": "Meeting with team",
+      "time": "2025-08-28T23:08",
+      "notified": true,
+      "editing": false
+    },
+    {
+      "id": "2",
+      "title": "Doctor Appointment",
+      "time": "2025-08-29T10:00",
+      "notified": true,
+      "editing": false
+    },
+    {
+      "id": "3",
+      "title": "Call John",
+      "time": "2025-08-29T20:32",
+      "notified": false,
+      "editing": false
+    },
+    {
+      "id": "4",
+      "title": "Submit Report",
+      "time": "2025-08-29T20:33",
+      "notified": false,
+      "editing": false
+    },
+    {
+      "id": "5",
+      "title": "Dinner with family",
+      "time": "2025-08-29T20:50",
+      "notified": false,
+      "editing": false
+    }
+  ]
+}
